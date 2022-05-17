@@ -13,6 +13,7 @@ class TesztKerdes {
         this.kattintasTrigger("kivalaszt1");
         setKek(this.kivalaszt1);
       });
+      console.log("hali");
 
       this.valasz2.on("click ", () => {
         this.kattintasTrigger("kivalaszt2");
