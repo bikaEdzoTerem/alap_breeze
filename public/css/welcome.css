@@ -1,0 +1,35 @@
+@charset "utf-8";
+body{
+    max-width: 90%;
+    margin: auto;
+    font-family: "Helvetica", Sans-serif;
+}
+.teszt{
+    margin-top: 10px;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 2px;
+}
+.kerdes{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(80, 34, 34);
+    color: wheat;
+}
+#valasz{
+    /* background-color: rgb(196, 255, 235); */
+    margin: 10px;
+    /* border: 1px solid rgb(180, 180, 180);
+    border-radius: 5px; */
+}
+.valasztasok{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media only screen and (max-width:500px) {
+    .valasztasok{
+        grid-template-columns: 1fr;
+    }
+}
